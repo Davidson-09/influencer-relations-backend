@@ -2,12 +2,17 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "this is the backend code for vbase saas",
-  "main": "src/server.js",
+  "main": "src/server.ts",
+  "type": "module",
   "author": "laju",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node src/server.js",
-    "test": "yarn test"
+    "start": "tsc src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
   }
 }
