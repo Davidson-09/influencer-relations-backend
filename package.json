@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is the backend code for vbase saas",
+  "main": "src/server.js",
+  "author": "laju",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "yarn test"
+  }
+}
