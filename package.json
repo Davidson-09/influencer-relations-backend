@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@types/node": "^18.11.18",
+    "tiktok-scraper": "^1.4.36",
     "typescript": "^4.9.4"
   }
 }
